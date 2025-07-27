@@ -29,18 +29,15 @@ This Python script implements a flexible backtesting engine to evaluate momentum
 
 1. **Install Python** (if not already installed)
 
-2. **Install required libraries**:
-   ```bash
-   pip install pandas numpy plotly openpyxl
-3. Input Data:
+2. Input Data:
    This repository includes a sample Commodity.xlsx file used in the backtest.
    If you're using your own data, ensure it follows the same format:
    Dates in the first column
    Each commodity as a separate column with daily prices
-4. Run the Script:
+3. Run the Script:
    python backtest.py
 
-5. Customize the Strategy:
+4. Customize the Strategy:
    Modify parameters in backtest.py to explore different configurations:
    backtest(
       Asset=Commodity,
